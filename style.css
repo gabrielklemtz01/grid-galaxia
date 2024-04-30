@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #1e1e1e;
+  color: #e1e1e6;
+}
+
+main {
+  width: 1230px;
+  margin: 0 auto;
+  padding-top: 7.3rem;
+  padding-bottom: 14rem;
+}
+
+h1 {
+  font-size: 5.8rem;
+  line-height: 7.3rem;
+  font-weight: 900;
+  color: #02799d;
+}
+
+h1 + p {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #e1e1e6;
+  line-height: 4rem;
+}
+
+.grid-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+  margin-top: 6.2rem;
+}
+
+.col-3 {
+  background-color: #202024;
+  border: 2px solid #323238;
+  border-radius: 0.8rem;
+}
+
+.describe {
+  padding: 2.3rem;
+}
+
+.describe h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 4.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.describe p {
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+  color: #c4c4cc;
+}
